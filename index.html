@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div class="container">
+        <h2 style="text-align: center;">Currency Converter</h2>
+        <form action="">
+
+            <div class="amount">
+                <p>Enter amount</p>
+                <input value="1" ="text">
+            </div>
+            <div class="drop-down">
+                <div class="form">
+                    <p>From</p>
+                    <div class="select-container">
+                        <img src="https://flagsapi.com/FR/flat/64.png" alt="">
+                        
+                       
+
+                            <select name="from" id="">
+
+                                <option value="EUR">EUR</option>
+                            
+                            
+                            </select>
+
+                        
+                        
+                    </div>
+                </div>
+
+                <i class="fa-solid fa-right-left"></i>
+
+
+
+                <div class="to">
+                    <p>To</p>
+                    <div class="select-container">
+                       
+                        <img id="toImg" src="https://flagsapi.com/BD/flat/64.png" alt="">
+                        <div class="countries">
+
+                            <select name="to" id="">
+                            
+                          
+                            </select>
+
+                        </div>
+                        
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="msg">1 EUR = 119 BDT</div>
+            <button>Get Exchange Rate</button>
+
+
+        </form>
+    </div>
+    
+</body>
+<script src="code.js"></script>
+<script src="script.js"></script>
+
+
+</html>
